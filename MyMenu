@@ -1,0 +1,71 @@
+{
+    "button": [
+        
+        {
+            "name": "业务", 
+            "sub_button": [
+            	{
+                    "type": "click", 
+                    "name": "充  值", 
+                    "key": "1"
+                },
+                {
+                    "type": "click", 
+                    "name": "提  现", 
+                    "key": "2"
+                },
+                {
+                    "type": "click", 
+                    "name": "余  额", 
+                    "key": "3"
+                }             
+            ]
+        }, 
+        {
+            "name": "账户", 
+            "sub_button": [    
+            	{
+                   "type": "click", 
+                    "name": "重新绑定", 
+                    "key": "13"
+                },     
+                {
+                   "type": "click", 
+                    "name": "认证查询", 
+                    "key": "14"
+                },  
+                {
+                    "type": "pic_sysphoto", 
+                    "name": "认证拍照", 
+                    "key": "rselfmenu_1_0", 
+                   "sub_button": [ ]
+                 }     
+            ]
+        }, 
+        {
+            "name": "帮助", 
+            "sub_button": [  
+                 {	
+	               "type":"view",
+	               "name":"扫贝入口",
+	               "url":"http://m.saopay.net/"
+	            },
+                {
+                   "type": "click", 
+                    "name": "联系客服", 
+                    "key": "11"
+                },  
+                 {	
+	               "type":"view",
+	               "name":"我要收款",
+	               "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx9f25641641562bde&redirect_uri=http%3a%2f%2fweixin.tzpay.cn%2fweixin%2fweixin%2fweixin_access.do&response_type=code&scope=snsapi_base&state=STATE&connect_redirect=1#wechat_redirect"
+	            },   	
+                {
+                    "type": "click", 
+                    "name": "联系我们", 
+                    "key": "15"
+                }         
+            ]
+        }        
+    ]
+}
